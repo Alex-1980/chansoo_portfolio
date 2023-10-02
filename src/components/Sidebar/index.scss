@@ -1,6 +1,7 @@
 .nav-bar {
-  background: #181818;
   width: 60px;
+  background: #2c2c2c;
+  // background: #181818;
   height: 100%;
   position: absolute;
   top: 0;
@@ -16,10 +17,13 @@
       margin: 8px auto;
       width: 50px;
       height: auto;
+    }
 
-      &.sub-logo {
-        width: 50px;
-      }
+    .sub-logo {
+      width: 50px;
+      color: antiquewhite;
+      font-weight: 700;
+      margin: auto;
     }
   }
 

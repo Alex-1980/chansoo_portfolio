@@ -11,7 +11,8 @@ export default function Sidebar() {
     <div className='nav-bar'>
       <Link className='logo' to='/'>
         <img src={LogoC} alt='logo' />
-        <img className='sub-logo' src={LogoSubtitle} alt='slobodan' />
+        <p className='sub-logo'>Chansoo</p>
+        {/* <img className='sub-logo' src={LogoSubtitle} alt='slobodan' /> */}
       </Link>
       <nav>
         <NavLink exact='true' activeclassname='active' to='/'>
